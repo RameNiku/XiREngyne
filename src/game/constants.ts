@@ -1,0 +1,10 @@
+export const MAP_COLS = 200;
+export const MAP_ROWS = 100;
+export const TILE_SIZE = 32;
+export const CORE_SIZE = 3;
+export const CORE_X = Math.floor(MAP_COLS / 2) - 1;
+export const CORE_Y = Math.floor(MAP_ROWS / 2) - 1;
+export const CORE_VISION_RANGE = 20;
+export const STARTING_METAL = 50;
+export const STARTING_XIR = 0;
+export const MAX_DT = 1 / 20;
